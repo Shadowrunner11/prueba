@@ -18,12 +18,12 @@ public class Edad {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        System.out.println("Ingresa tu año de nacimiento\n");
+        System.out.println("Ingresa tu Edad\n");
         Scanner scan=new Scanner(System.in);
         Difaños años=new Difaños();
         años.nacimiento=scan.nextInt();
         int total=años.Edad();
-        System.out.println("\nTienes "+total+" años");
+        System.out.println("\nNciste el "+total+".");
         
     }
     
